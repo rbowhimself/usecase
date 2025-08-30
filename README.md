@@ -72,9 +72,9 @@ graph TD;
     Technician -- "گزارش نهایی" --> UC19;
 
     %% Relationships
-    UC1 ..> UC_Login : <<include>>;
-    UC_Login ..> UC_Register : <<extend>>;
-    UC18 ..> UC_Warranty : <<extend>>;
+    UC1 --> UC_Login;
+    UC_Login --> UC_Register;
+    UC18 --> UC_Warranty;
 ```
 
 ---
